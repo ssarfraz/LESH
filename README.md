@@ -1,4 +1,3 @@
-# LESH feature descriptor code
 # LESH (Local Energy based Shape Histogram) feature Extraction
  
 # Usage: [lesh]=calc_LESH(im)
