@@ -1,6 +1,7 @@
 # LESH (Local Energy based Shape Histogram) feature Extraction
  
-# Usage: [lesh]=calc_LESH(im)
+# Usage: 
+lesh_vect = calc_LESH(im) ;
 
 # Input: 
 im = Image or Local patch
