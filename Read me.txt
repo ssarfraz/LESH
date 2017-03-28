@@ -1,0 +1,50 @@
+Folder contains LESH feature vector extraction code.
+
+ LESH (Local Energy based Shape Histogram) feature Extraction
+ 
+ usage: [lesh]=calc_LESH(im)
+
+Input: 
+im = Image or Local patch
+
+output: 
+ Shape_vect= LESH feature vector (128 dimentional for 16 partitions and 512 dimentional for 64 partitions of the 
+             image/patch. (see FeatureParam.m)
+ 
+ 
+
+Works on image or patch of any size (preferably square). 
+
+Recomended partition size `w' is 8 (512-dim vector) for an image of size greater than 64x64. In patches of size 32x32, partition size should be changed to 4 (to yield a 128 dim vector) 
+
+NOTE; There are a number of parametes to adjust for different applications.
+file FeatureParam.m may be modified to change e.g. the number of scale and orientation of GABOR filter. partion size may be changed to yield a longer vector or vice versa, more coarse partions or more fine partions may affect the discrimination quality of feature vector. 
+Recomended settings are 8x8(64) partition size(512-dimenstional vector) and 5 scales and 8 orientations for GABOR filter bank.
+
+Please Note: This updated version does not include the Gaussian weighing as describe in the paper, with the current optimzation, we have found it works better for general shape descriptions. 
+
+
+
+COPYRIGHT NOTICE:
+
+Acknowledgemnt: The code uses updated version of phasecongruency detection from Peter kovesi Matlab toolbox. 
+Please use the respective paper citation in the file phasecong3.m 
+
+%Copyright: %2007-2017 M.Saquib Sarfraz
+ 
+% Citation to the following published article(s) must be made in any
+% published work using LESH
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+% The software is provided "as is", without warranty of any kind.
+
+% References:
+%%[1] M.Saquib Sarfraz and Olaf Hellwich, "On Head Pose Estimation in Face Recognition", 
+%     J. Braz, A. Ranchordas, H. Arajo and J. Jorge Editors, Advances in Computer Graphics and Computer Vision.
+%     Lecture notes CCIS 24, pp 162-175, Springer, 2009.
+
+% [2] M.S.Sarfraz and O.Hellwich,"Head Pose Estimation in Face Recognition across Pose Scenarios" 
+%     in Int.  Conference on Computer Vision Theory and Applications VISAPP, Vol. 1, pp. 235 -242, Portugal, 2008.
+
+% [3] M.S.Sarfraz, O.Hellwich," An Efficient Front-end Facial Pose Estimation System for Face Recognition", 
+%     In International Journal of Pattern Recognition and Image Analysis, distributed by Springer, Vol.18(3) pp. 434441, 2008.
