@@ -25,7 +25,6 @@ Please Note: This updated version does not include the Gaussian weighing as desc
 
 
 
-# NOTICE:
 
 Acknowledgemnt: The code uses updated version of phasecongruency detection from Peter kovesi Matlab toolbox. 
 Please use the respective paper citation in the file phasecong3.m 
