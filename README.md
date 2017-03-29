@@ -7,7 +7,7 @@ lesh_vect = calc_LESH(im) ;
 im = Image or Local patch
 
 # output: 
- Shape_vect= LESH feature vector (128 dimentional for 16 partitions and 512 dimentional for 64 partitions of the 
+ lesh_vect= LESH feature vector (128 dimentional for 16 partitions and 512 dimentional for 64 partitions of the 
              image/patch. (see FeatureParam.m)
  
  
@@ -33,12 +33,13 @@ Please use the respective paper citation in the file phasecong3.m
 The software is provided "as is", without warranty of any kind.
 
 # References:
-[1] M.Saquib Sarfraz and Olaf Hellwich, "On Head Pose Estimation in Face Recognition", 
-    J. Braz, A. Ranchordas, H. Arajo and J. Jorge Editors, Advances in Computer Graphics and Computer Vision.
-    Lecture notes CCIS 24, pp 162-175, Springer, 2009.
 
-[2] M.S.Sarfraz and O.Hellwich,"Head Pose Estimation in Face Recognition across Pose Scenarios" 
+[1] M.S.Sarfraz and O.Hellwich,"Head Pose Estimation in Face Recognition across Pose Scenarios" 
     in Int.  Conference on Computer Vision Theory and Applications VISAPP, Vol. 1, pp. 235 -242, Portugal, 2008.
 
-[3] M.S.Sarfraz, O.Hellwich," An Efficient Front-end Facial Pose Estimation System for Face Recognition", 
+[2] M.S.Sarfraz, O.Hellwich," An Efficient Front-end Facial Pose Estimation System for Face Recognition", 
     In International Journal of Pattern Recognition and Image Analysis, distributed by Springer, Vol.18(3) pp. 434441, 2008.
+    
+[3] M.Saquib Sarfraz and Olaf Hellwich, "On Head Pose Estimation in Face Recognition", 
+    J. Braz, A. Ranchordas, H. Arajo and J. Jorge Editors, Advances in Computer Graphics and Computer Vision.
+    Lecture notes CCIS 24, pp 162-175, Springer, 2009.
