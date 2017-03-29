@@ -53,9 +53,9 @@ feature_param=FeatureParam(); %%%% load some parameters values
  blksize=size(im)/w;  
  %%%
  pct=sum(cat(3,pc{:}),3); %Just for display purpose
- %%%  
  orientation=or./22.5;
-
+ %%%
+ 
  pc_im=zeros(size(im,1),size(im,2),n_orient);
  g=cell(w,w);
 for ort=1:n_orient
