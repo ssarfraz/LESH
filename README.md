@@ -21,7 +21,7 @@ file FeatureParam.m may be modified to change e.g. the number of scale and orien
 Recomended settings are 8x8(64) partition size(512-dimenstional vector) and 5 scales and 8 orientations for GABOR filter bank.
 
 # Please Note:
-This updated version does not include the Gaussian weighing as describe in the paper, with the current optimzation, we have found it works better for general shape description.
+This updated optimized version does not include the Gaussian weighing as described in the paper, with the current optimzation, we have found it works better for general shape description.
 
 Another implementation by ArpitaSTugave based on my older intital code (includes Gaussian weighing as in the orignol paper). you can chek that out here https://github.com/ArpitaSTugave/Landmine/tree/master/Feature_Extractors/%2BLESH
 
