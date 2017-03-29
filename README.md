@@ -23,10 +23,6 @@ Recomended settings are 8x8(64) partition size(512-dimenstional vector) and 5 sc
 # Please Note:
 This updated optimized version does not include the Gaussian weighing as described in the paper. With the current optimzation, we have found it works better for general shape description.
 
-Another implementation by ArpitaSTugave (includes Gaussian weighing as in the orignol paper). you can check that out here https://github.com/ArpitaSTugave/Landmine/tree/master/Feature_Extractors/%2BLESH
-
-
-
 Acknowledgemnt: The code uses updated version of phasecongruency detection from Peter kovesi Matlab toolbox. 
 Please use the respective paper citation in the file phasecong3.m 
 
