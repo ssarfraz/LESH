@@ -15,8 +15,7 @@ im = Image or Local patch
 Works on image or patch of any size (preferably square). 
 
 Recomended partition size w is 8 (512-dim vector) for an image of size greater than 64x64. In patches of size 32x32, partition size should be changed to 4 (to yield a 128 dim vector) 
-
-# NOTE 
+ 
 There are a number of parametes to adjust for different applications.
 file FeatureParam.m may be modified to change e.g. the number of scale and orientation of GABOR filter. partion size may be changed to yield a longer vector or vice versa, more coarse partions or more fine partions may affect the discrimination quality of feature vector. 
 Recomended settings are 8x8(64) partition size(512-dimenstional vector) and 5 scales and 8 orientations for GABOR filter bank.
